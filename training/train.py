@@ -246,5 +246,5 @@ if __name__ == '__main__':
 
         _ = [r.result() for r in results] # Acquire the result
     else: # What execution would look like without funcX (i.e., sequential execution)
-        for m in args.model:
+        for m in args.models:
             main(args, model=m)
